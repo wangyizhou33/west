@@ -1,9 +1,11 @@
 manifest:
   remotes:
-    - name: glog
-      url-base: https://github.com/google/glog.git
+    - name: google
+      url-base: https://github.com/google
   projects:
     - name: glog
-      remote: glog
+      remote: google
+      revision: v0.7.1
+    - name: googletest
+      remote: google
       revision: main
-      import: true

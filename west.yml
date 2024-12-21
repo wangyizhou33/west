@@ -1,4 +1,9 @@
 manifest:
+  self:
+    path: manifest
+  defaults:
+    remote: codearts-J6E
+    revision: master
   remotes:
     - name: google
       url-base: https://github.com/google
@@ -19,6 +24,4 @@ manifest:
     - name: cereal
       url: https://github.com/USCiLab/cereal
     - name: yizhouw_test
-      remote: codearts-J6E
-      revision: master
       path: src/yizhouw_test

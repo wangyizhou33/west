@@ -1,0 +1,9 @@
+manifest:
+  remotes:
+    - name: glog
+      url-base: https://github.com/google/glog.git
+  projects:
+    - name: glog
+      remote: glog
+      revision: main
+      import: true

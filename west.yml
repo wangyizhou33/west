@@ -2,6 +2,10 @@ manifest:
   remotes:
     - name: google
       url-base: https://github.com/google
+    - name: curl
+      url-base: https://github.com/curl
+    - name: codearts-J6E
+      url-base: git@codehub.devcloud.cn-north-4.huaweicloud.com:2e2c25f56396439aa2cf8a8d7e68f2c7
   projects:
     - name: glog
       remote: google
@@ -9,3 +13,11 @@ manifest:
     - name: googletest
       remote: google
       revision: main
+    - name: curl
+      remote: curl
+      revision: tiny-curl-8_4
+    - name: cereal
+      url: https://github.com/USCiLab/cereal
+    - name: yizhouw_test
+      remote: codearts-J6E
+      revision: master

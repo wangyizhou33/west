@@ -21,3 +21,4 @@ manifest:
     - name: yizhouw_test
       remote: codearts-J6E
       revision: master
+      path: src/yizhouw_test

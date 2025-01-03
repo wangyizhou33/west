@@ -23,5 +23,3 @@ manifest:
       revision: tiny-curl-8_4
     - name: cereal
       url: https://github.com/USCiLab/cereal
-    - name: yizhouw_test
-      path: src/yizhouw_test
